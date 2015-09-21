@@ -1,0 +1,50 @@
+#+Title: Relational Algebra
+#+Author: Evan Misshula
+#+Email: emisshula@jjay.cuny.edu
+
+#+TAGS:       Write(w) Update(u) Fix(f) Check(c) noexport(n) export(e)
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:t
+#+OPTIONS: reveal_mathjax:t reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+OPTIONS: toc:nil
+#+OPTIONS: reveal_mathjax_url:file:///MathJax/MathJax.js
+#+REVEAL_MARGIN: 0.1
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_TRANS: cube
+#+REVEAL_THEME: simple
+#+REVEAL_HLEVEL: 1
+#+REVEAL_HEAD_PREAMBLE: <meta name="description" content="Org-Reveal Introduction.">
+#+REVEAL_POSTAMBLE: <p> Created by Evan Misshula. </p>
+#+REVEAL_PLUGINS: (highlight markdown)
+
+
+* Relational Algebra
+Relational algebra is the basic set of operations for the relational
+model
+
+These operations enable a user to specify *basic retrieval requests* (or
+*queries*)
+
+* Relational Algebra Overview
+- Relational Algebra consists of several groups of operations
+- Unary Relational Operations
+  - SELECT (symbol: \( \mathbf{\sigma} \) [*sigma*})
+  - PROJECT (symbol: \( \mathbf{\pi} \) [*pi*})
+  - RENAME (symbol: \( \mathbf{\rho} \)[*rho*})
+
+
+* Relational Algebra Operations From Set Theory
+- UNION (\(\mathbf{\cup}\)) 
+- INTERSECTION (\(\mathbf{\cap}\)), 
+- DIFFERENCE (or MINUS, – )
+- CARTESIAN PRODUCT (\(\mathbf{x}\)), 
+
+
+
+* Binary Relational Operations
+- JOIN (several variations of JOIN exist)
+- DIVISION
+* Additional Relational Operations
+- OUTER JOINS, OUTER UNION
+- AGGREGATE FUNCTIONS
